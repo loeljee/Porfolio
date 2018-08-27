@@ -1,0 +1,43 @@
+body {
+    background:url(../images/concrete_seamless.png);
+}
+
+header {
+    background: #ffffff;
+    margin-bottom: 25px;
+}
+img {
+    padding-bottom: 50px;
+}
+
+h2 {
+    padding:25px;
+    width: 100%;
+    color: #4aaaa5;
+    border-bottom: 3px solid #cccccc;
+}
+
+
+.navbar {
+    font-size: 18px;
+    background: #ffffff;
+}
+
+.navbar-brand {
+    background: #4aaaa5;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.body {
+    background: #ffffff;
+}
+
+.img-rounded {
+    margin-left: 25px;
+}
+
+.nav-item {
+    border-right: 3px solid #cccccc;
+}

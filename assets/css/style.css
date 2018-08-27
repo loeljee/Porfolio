@@ -1,0 +1,373 @@
+body {
+    background:url(../images/concrete_seamless.png);
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    color: #777777;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, Times, Times New Roman, serif; 
+    color: #4aaaa5;
+}
+
+h1 {
+    color: #ffffff;
+    background: #4aaaa5;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+h1:hover {
+    border: 3px outset #cccccc;
+    padding: 17px;
+}
+
+h1:active {
+    border: 1px outset #666;
+    transform: translateY(5px);
+}
+
+h2 {
+    padding:20px;
+    border-bottom: 3px solid #cccccc;
+    margin: 20px;
+}
+
+header {
+    background: #ffffff;
+    height: 75px;
+    border-bottom: 3px solid #cccccc;
+    margin: -5px -20px 20px -20px;
+}
+label {
+    font-size: 25px;
+    color: #4aaaa5;
+    display: none;
+}
+
+#toggle {
+    display: none;
+}
+
+.col-1 {
+    width:80%;
+}
+
+.col-2 {
+    width:83%;
+}
+
+nav {
+    width: 40%;
+    float: right;
+    text-align: center;
+    margin-top: 15px;
+}
+
+nav ul li {
+    display: inline-block;    
+}
+
+nav a {
+    text-decoration: none;
+    color: #777777;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-right: 1px solid #cccccc;
+    position: relative;
+}
+
+#contact:hover {
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+#about:hover {
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+#portfolio:hover {
+    font-size: 20px;
+    padding: 10px 20px;
+}
+#joel {
+    position: relative;
+    width: 40%;
+    height: auto;
+    padding: 20px;
+    float: left;
+}
+
+p {
+    padding: 20px;
+    line-height: 20px;
+}
+
+#contact {
+    border-right: none;
+    padding-right: none;
+}
+
+.headwrapper, .contentwrapper {
+    width: 959px;
+    margin: 0 auto;
+}
+
+.contentwrapper {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    min-height: 100%; 
+    margin-bottom: 75px;
+    bottom: 80px;
+}
+
+footer {
+
+    background: #666666;
+    text-align: center;
+    height: 75px;
+    margin: 20px -20px -20px -20px;
+    border-top: 5px solid #4aaaa5;
+    position: sticky;
+}
+
+.copy {
+    padding-top: 50px;
+    bottom: 0px;
+}
+
+html, body {
+    height: 98%;
+    margin: 0px;
+}
+
+form {
+    padding-left: 40px;
+}
+
+#submit {
+    background: #4aaaa5;
+    color: #ffffff;
+    border: 1px outset #cccccc;
+    padding: 8px 20px;
+    font-size: 15px;
+}
+
+#submit:hover {
+    border: 3px outset #cccccc;
+    padding: 6px 18px;
+}
+
+#submit:active {
+    border: 1px outset #666;
+    transform: translateY(1px);
+}
+
+#submit:focus {
+    outline:0;
+}
+
+#wheelie {
+    width: 920px;
+    height: auto;
+    margin-top:0px;
+    padding:0px 20px 20px 20px;
+}
+
+#mario {
+    text-align: center;
+    line-height: 40px;
+}
+
+#home {
+    text-decoration: none;
+    color: #ffffff
+}
+
+.input {
+    border: 1px inset #cccccc;
+    margin-top: 5px;
+    padding: 5px;
+    width: 865px;
+}
+
+.clearfix:after {
+    display:block;
+    content:"";
+    clear: both;
+}
+
+.pics {
+    float: left;
+    margin: 5%;
+    width: 30%;
+    height: 25%;    
+}
+
+.pics:hover{
+    border: 3px outset #cccccc;
+    width: 294px;
+    height: 244px; 
+}
+
+.pics:active {
+    border: 1px outset #666;
+    transform: translateY(5px);
+    width: 296px;
+    height: 246px;
+}
+
+#hangman {
+    background: url(../images/hangman.png);
+    background-size: 120%;
+    background-position: -40px 0px;
+}
+
+#rpg {
+    background: url(../images/RPG.jpg);
+    background-size: 150%;
+
+}
+
+#trivia {
+    background: url(../images/trivia.webp);
+    background-size: 136%;
+    background-position: -45px 0px;
+}
+
+#rutgers {
+    background: url(../images/rutgers.jpg);
+    background-size: 113%;
+}
+
+#rock {
+    background: url(../images/rock.jpg);
+    background-size: 110%;
+    background-position: -20px 0px;
+    margin-bottom: 60px;
+}
+
+#goal {
+    background: url(../images/goal.png);
+    background-size: 115%;
+    background-position: -13px 0px;
+    text-decoration: none;
+}
+
+h3 {
+    position: relative;
+    color: #ffffff;
+    background: #4aaaa5;
+    margin-top: 180px;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.things, img {
+    justify-content:  center;
+    display: flex;
+}
+
+@media only screen and (max-width: 1010px) {
+    .headwrapper, .contentwrapper {
+        width: 100%;
+    }
+    .menu {
+        text-align: center;
+        display: none;
+    }
+    label {
+        display: block;
+        cursor: pointer;
+        text-align: right;
+        margin:0px 50px;
+      }
+      .menu a {
+          display: block;
+          background: #4aaaa5;
+          color: #ffffff;
+          margin: none;
+      }
+      #toggle:checked + .menu {
+          display: inline;
+          width:30%;
+      }
+      .col-2 {
+          width:100%;
+      }
+      .input {
+          width: 85%;
+      }
+      h1 {
+          padding-left:25px;
+      }
+      #wheelie{
+          width: 95%;
+          margin: auto;
+          padding: 0px;
+      }
+}
+
+
+@media only screen and (max-width: 650px) {
+      .pics {
+
+        margin: 0px;
+    
+    }
+    .things {
+        margin: 0px;
+        display: block;
+    }
+    #hangman {
+        justify-content: center;
+        margin:0% 20%;
+        margin-bottom: 25px;
+        min-width: 250px;
+        max-width: 300px;
+        display: block;
+    }
+    #rpg {
+        justify-content: center;
+        margin:0% 20%;
+        margin-bottom: 25px;
+        min-width: 250px;
+        max-width: 300px;
+        display: block;
+    }
+    #trivia {
+        justify-content: center;
+        margin:0% 20%;
+        margin-bottom: 25px;
+        min-width: 250px;
+        max-width: 300px;
+        display: block;
+    }
+    #rutgers {
+        justify-content: center;
+        margin:0% 20%;
+        margin-bottom: 25px;
+        min-width: 250px;
+        max-width: 300px;
+        display: block;
+    }   
+    #rock {
+        justify-content: center;
+        margin:0% 20%;
+        margin-bottom: 25px;
+        min-width: 250px;
+        max-width: 300px;
+        display: block;
+    } 
+    #goal {
+        justify-content: center;
+        margin:0% 20%;
+        margin-bottom: 25px;
+        min-width: 250px;
+        max-width: 300px;
+        display: block;
+    }
+}
+

@@ -203,6 +203,7 @@ form {
     margin: 5%;
     width: 30%;
     height: 25%;    
+    text-decoration: none;
 }
 
 .pics:hover{
@@ -219,14 +220,14 @@ form {
 }
 
 #hangman {
-    background: url(../images/hangman.png);
+    background: url(../images/hangman.jpeg);
     background-size: 120%;
-    background-position: -40px 0px;
+    background-position: -40px -80px;
 }
 
 #rpg {
     background: url(../images/RPG.jpg);
-    background-size: 150%;
+    background-size: 100%;
 
 }
 

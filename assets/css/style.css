@@ -232,14 +232,15 @@ form {
 }
 
 #trivia {
-    background: url(../images/trivia.webp);
-    background-size: 136%;
-    background-position: -45px 0px;
+    background: url(../images/spacetrivia.png);
+    background-size: 150%;
+    background-position: center;
 }
 
 #rutgers {
-    background: url(../images/rutgers.jpg);
-    background-size: 113%;
+    background: url(../images/cargiphy.png);
+    background-size: 150%;
+    background-position: center;
 }
 
 #rock {

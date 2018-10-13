@@ -31,21 +31,13 @@ h1 {
 
 header {
     background: url(../images/header.jpg) fixed;
-    height: 110%;
-    /* margin: -5px -20px 20px -20px; */
+    height: 100%;
 }
+
 label {
     font-size: 25px;
     color: #2b869f;
     display: none;
-}
-
-.col-1 {
-    width:80%;
-}
-
-.col-2 {
-    width:83%;
 }
 
 nav {
@@ -96,11 +88,10 @@ nav a {
 
 #joel {
     position: relative;
-    width: 20%;
+    width: 40%;
     height: auto;
     padding: 20px;
     float: left;
-    margin:1px;
 }
 
 p {
@@ -112,11 +103,7 @@ p {
     border-right: none;
     padding-right: none;
 }
-/* 
-.headwrapper, .contentwrapper {
-    width: 959px;
-    margin: 0 auto;
-} */
+
 .menu {
     background: #3c3c3c;
     padding: 2px;
@@ -193,7 +180,6 @@ form {
 
 .pics {
     float: left;
-    margin: 5%;
     width: 294px;
     height: 244px;   
     text-decoration: none;
@@ -225,13 +211,13 @@ form {
 }
 
 #trivia {
-    background: url(../images/spacetrivia.png);
+    background: url(../images/trivia.png);
     background-size: 150%;
     background-position: center;
 }
 
 #rutgers {
-    background: url(../images/cargiphy.png);
+    background: url(../images/giphy.png);
     background-size: 150%;
     background-position: center;
 }
@@ -240,7 +226,7 @@ form {
     background: url(../images/rock.jpg);
     background-size: 110%;
     background-position: -20px 0px;
-    margin-bottom: 60px;
+
 }
 
 #goal {
@@ -267,7 +253,7 @@ h2 {
     text-align: center;
     padding:20px 0px;
     border-bottom: 5px solid #2b869f;
-    margin: 0px 35% 20px 35%;
+    /* margin: 0px 35% 20px 35%; */
 }  
 
 #porth2 {
@@ -283,14 +269,17 @@ h2 {
 
 #aboutC{
     background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url(../images/about.jpg) center ;
+    background-size: cover;
 }
 
 #portfolioC {
     background: linear-gradient(rgb(0, 0, 0,.7), rgb(0, 0, 0,.7)), url(../images/portfolio.png)center;
+    background-size: cover;
 }
 
 #contactC {
     background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url(../images/contact.jpg)center fixed;
+    background-size: cover;
 
 }
 

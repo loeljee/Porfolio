@@ -31,7 +31,7 @@ h1 {
 }
 
 header {
-    background: url(../images/header.jpg);
+    background: url(../images/header.jpg) fixed;
     height: 110%;
     /* margin: -5px -20px 20px -20px; */
 }
@@ -194,8 +194,8 @@ form {
 .pics {
     float: left;
     margin: 5%;
-    width: 30%;
-    height: 25%;    
+    width: 294px;
+    height: 244px;   
     text-decoration: none;
 }
 
@@ -263,6 +263,7 @@ h3 {
 
 h2 {
     text-align: center;
+    text-shadow: 1px 1px white;
     padding:20px 0px;
     border-bottom: 3px solid grey;
     margin: 0px 35% 20px 35%;
@@ -277,18 +278,15 @@ h2 {
 }
 
 #aboutC{
-    background: url(../images/about.jpg) center fixed;
-    text-shadow: 1px 1px black;
+    background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url(../images/about.jpg) center ;
 }
 
 #portfolioC {
-    background: url(../images/portfolio.png)center;
-    text-shadow: 1px 1px white;
+    background: linear-gradient(rgba(255,255,255,.0), rgba(255,255,255,.0)), url(../images/portfolio.png)center;
 }
 
 #contactC {
-    background: url(../images/contact.jpg)center fixed;
-    text-shadow: 1px 1px black;
+    background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url(../images/contact.jpg)center fixed;
 
 }
 

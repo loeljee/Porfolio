@@ -20,7 +20,6 @@ html, body {
 
 h1, h2 {
     font-family: 'Permanent Marker', cursive;
-    color: #4aaaa5;
 }
 
 h1 {
@@ -37,7 +36,7 @@ header {
 }
 label {
     font-size: 25px;
-    color: #4aaaa5;
+    color: #2b869f;
     display: none;
 }
 
@@ -97,10 +96,11 @@ nav a {
 
 #joel {
     position: relative;
-    width: 30%;
+    width: 20%;
     height: auto;
     padding: 20px;
     float: left;
+    margin:1px;
 }
 
 p {
@@ -128,7 +128,7 @@ footer {
     background: #3c3c3c;
     text-align: center;
     height: 75px;
-    border-top: 5px solid #4aaaa5;
+    border-top: 5px solid #2b869f;
 }
 
 .copy {
@@ -262,16 +262,20 @@ h3 {
 }
 
 h2 {
+    color: black;
+    font-size: 20px;
     text-align: center;
-    text-shadow: 1px 1px white;
     padding:20px 0px;
-    border-bottom: 3px solid grey;
+    border-bottom: 5px solid #2b869f;
     margin: 0px 35% 20px 35%;
-}   
+}  
+
+#porth2 {
+    color: white;
+}
 
 .container {
     background: #ffffff;
-    min-height: 110%; 
     min-width: 100%;
     margin: 0px;
     padding: 0px;
@@ -282,7 +286,7 @@ h2 {
 }
 
 #portfolioC {
-    background: linear-gradient(rgba(255,255,255,.0), rgba(255,255,255,.0)), url(../images/portfolio.png)center;
+    background: linear-gradient(rgb(0, 0, 0,.7), rgb(0, 0, 0,.7)), url(../images/portfolio.png)center;
 }
 
 #contactC {

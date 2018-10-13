@@ -6,10 +6,16 @@ font-family: 'Permanent Marker', cursive; */
 
 
 body {
-    background:url(../images/concrete_seamless.png);
+
     font-family: 'Righteous', cursive;
     letter-spacing: 1px;
     color: #777777;
+}
+
+html, body {
+    height: 98%;
+    margin: 0px;
+    min-width: 100%;
 }
 
 h1, h2 {
@@ -19,42 +25,19 @@ h1, h2 {
 
 h1 {
     color: #2b869f;
-    
-   
     text-align: center;
     padding: 20px;
     margin-top: 0px;
 }
 
-h1:hover {
-    border: 3px outset #cccccc;
-    padding: 17px;
-}
-
-h1:active {
-    border: 1px outset #666;
-    transform: translateY(5px);
-}
-
-h2 {
-    padding:20px;
-    border-bottom: 3px solid #cccccc;
-    margin: 20px;
-}
-
 header {
     background: url(../images/header.jpg);
     height: 100%;
-    border-bottom: 3px solid #cccccc;
     /* margin: -5px -20px 20px -20px; */
 }
 label {
     font-size: 25px;
     color: #4aaaa5;
-    display: none;
-}
-
-#toggle {
     display: none;
 }
 
@@ -67,10 +50,12 @@ label {
 }
 
 nav {
-   padding-top: 20px;
+    z-index: 999;
+    padding-top: 20px;
     text-align: center;
- margin: -20px;
-
+    margin-top: -20px;
+    position: fixed;
+    width: 100%;
 }
 
 
@@ -79,37 +64,37 @@ ul li {
 }
 
 ul{
- background: rgb(52, 52, 52);
- margin: 0px;
- padding: 5px;
+    background: rgb(52, 52, 52);
+    margin: 0px;
+    padding: 5px;
 }
 
 nav a {
     
     text-decoration: none;
-    color: white;
+    color: gray;
     font-size: 15px;
-    padding: 2px 20px;
+    padding: 0px 20px;
     border-right: 1px solid #cccccc;
     position: relative;
 }
-
+#home:hover{
+    color: white;
+}
 
 
 #contact:hover {
-    font-size: 20px;
-    padding: 10px 20px;
+    color: white;
 }
 
 #about:hover {
-    font-size: 20px;
-    padding: 10px 20px;
+    color: white;
 }
 
 #portfolio:hover {
-    font-size: 20px;
-    padding: 10px 20px;
+    color: white;
 }
+
 #joel {
     position: relative;
     width: 40%;
@@ -132,39 +117,24 @@ p {
     width: 959px;
     margin: 0 auto;
 } */
-.menu,  {
+.menu {
     background: #3c3c3c;
-padding: 2px;
+    padding: 2px;
     width: 100%;
 }
 
-.contentwrapper {
-    background: #ffffff;
-    border: 1px solid #dddddd;
-    min-height: 100%; 
-    margin-bottom: 75px;
-    bottom: 80px;
-}
 
 footer {
-
     background: #3c3c3c;
     text-align: center;
     height: 75px;
-    margin: 20px -20px -20px -20px;
     border-top: 5px solid #4aaaa5;
-    position: sticky;
 }
 
 .copy {
     padding-top: 50px;
     bottom: 0px;
     color: white;
-}
-
-html, body {
-    height: 98%;
-    margin: 0px;
 }
 
 form {
@@ -193,21 +163,14 @@ form {
     outline:0;
 }
 
-#wheelie {
-    width: 920px;
-    height: auto;
-    margin-top:0px;
-    padding:0px 20px 20px 20px;
-}
-
 #mario {
     text-align: center;
     line-height: 40px;
 }
 
-#home {
+#joelLee{
     display: block;
-    margin:1.5em auto 0px auto;
+    margin:2.5em auto 0px auto;
     font-size:100px;
     text-align: center;
     text-decoration: none;
@@ -288,7 +251,7 @@ form {
 }
 
 h3 {
-text-align: center;
+    text-align: center;
     color: #ffffff;
     text-decoration: none;
 }
@@ -298,29 +261,50 @@ text-align: center;
     display: flex;
 }
 
+h2 {
+    text-align: center;
+    padding:20px 0px;
+    border-bottom: 3px solid grey;
+    margin: 0px 35% 20px 35%;
+}   
+
+.container {
+    background: #ffffff;
+    min-height: 100%; 
+    min-width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#aboutC{
+    background: url(../images/about.jpg) center fixed;
+    text-shadow: 1px 1px black;
+}
+
+#portfolioC {
+    background: url(../images/portfolio.png)center fixed;
+    text-shadow: 1px 1px white;
+}
+
+#contactC {
+    background: url(../images/contact.jpg)center fixed;
+    text-shadow: 1px 1px black;
+
+}
+
 @media only screen and (max-width: 1010px) {
-    .headwrapper, .contentwrapper {
-        width: 100%;
-    }
     .menu {
         text-align: center;
         display: none;
     }
     label {
-        display: block;
         cursor: pointer;
         text-align: right;
-      
       }
       .menu a {
-          display: block;
           background: #4aaaa5;
           color: #ffffff;
           margin: none;
-      }
-      #toggle:checked + .menu {
-          display: inline;
-          width:30%;
       }
       .col-2 {
           width:100%;
@@ -331,19 +315,12 @@ text-align: center;
       h1 {
           padding-left:25px;
       }
-      #wheelie{
-          width: 95%;
-          margin: auto;
-          padding: 0px;
-      }
 }
 
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 667px) {
       .pics {
-
         margin: 0px;
-    
     }
     .things {
         margin: 0px;

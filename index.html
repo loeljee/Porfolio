@@ -7,36 +7,37 @@
     <link href="https://fonts.googleapis.com/css?family=Acme|Gloria+Hallelujah|Mali|Permanent+Marker|Righteous" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
     <header>
-       
-          
-                <nav>
-                    <div class="nav">
-                        <label for="toggle">&#9776;</label>
-                        <input type="checkbox" id="toggle" />
-                        <div class="menu col-12">
-                            <ul>
-                                <a id="index" href="index.html">Home</a>
-                                <a id="about" href="index.html">About</a>
-                                <a id="portfolio" href="portfolio.html">Portfolio</a>
-                                <a id="contact" href="contact.html">Contact</a>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-                <h1>
-                    <a id="home" href="cover.html">Joel Lee</a>
-                </h1>
+
+
+        <nav>
+            <div id="header" class="nav container">
+                <!-- <label for="toggle">&#9776;</label>
+                <input type="checkbox" id="toggle" /> -->
+                <div class="menu col-12">
+                    <ul>
+                        <a id="home" href="index.html">Home</a>
+                        <a id="about" href="index.html">About</a>
+                        <a id="portfolio" href="portfolio.html">Portfolio</a>
+                        <a id="contact" href="contact.html">Contact</a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <h1>
+            <a id="joelLee">Joel Lee</a>
+        </h1>
         <h3>- Developer -</h3>
-      
+
     </header>
 
-    <div class="col-2 contentwrapper">
+    <div id="aboutC" class="col-2 container">
         <div class="row">
             <h2>About Me</h2>
         </div>
@@ -55,13 +56,74 @@
         </div>
     </div>
 
+    <div id="portfolioC" class="col-2 container">
+        <div class="row">
+            <h2>Portfolio</h2>
+            </div>
+            <div class="clearfix">
+                <div class="things">
+                    <a class="pics" id="hangman" href="https://loeljee.github.io/Word-Guess-Game/">
+                        <h3>Hangman</h3>
+                    </a>
+                    <a class="pics" id="rpg" href="https://loeljee.github.io/unit-4-game/">
+                        <h3>Star Wars RPG</h3>
+                    </a>
+                </div>
+                <!-- working -->
+                <div class="things">
+                    <a class="pics" id="trivia" href="https://loeljee.github.io/TriviaGame/">
+                        <h3>Space Trivia</h3>
+                    </a>
+                    <a class="pics" id="rutgers" href="https://loeljee.github.io/giphy/">
+                        <h3>Car Giphys</h3>
+                    </a>
+                </div>
+
+                <div class="things">
+                    <div class="pics" id="rock">
+                        <h3>Rock Paper Scissors</h3>
+                    </div>
+                    <a class="pics" id="goal" href="https://scratch.mit.edu/projects/235301591/#fullscreen">
+                        <h3>Goal Invaiders</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contactC" class="col-2 container">
+        <div class="row">
+
+            <h2>Contact</h2>
+
+            <form action="mailto:loeljee@gmail.com" method="post" enctype="text/plain">
+                Name:
+                <br>
+                <input class="input" type="text" name="name" placeholder="John Smith">
+                <br>
+                <br> E-mail:
+                <br>
+                <input class="input" type="text" name="mail" placeholder="example@gmail.com">
+                <br>
+                <br> Message:
+                <br>
+                <textarea class="input" name="message" rows="15" cols="100" placeholder="Send me an email"></textarea>
+                <br>
+                <br>
+                <input id="submit" type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+
 
 
     <footer class=footer>
         <div class=copy>
-            &copy; Copyright 2018 Joel Lee. All rights reserved.
+            &copy; Copyright 2018 Joel Lee.
         </div>
     </footer>
 </body>
+<script src="assets/js/logic.js"></script>
 
 </html>

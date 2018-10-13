@@ -313,6 +313,9 @@ h2 {
 
 
 @media only screen and (max-width: 667px) {
+    nav{
+        position: static;
+    }
     nav a{
         font-size: 10px;
     }
@@ -325,7 +328,7 @@ h2 {
     }
     #hangman {
         justify-content: center;
-        margin:0% 20%;
+        /* margin:0% 20%; */
         margin-bottom: 25px;
         min-width: 250px;
         max-width: 300px;
@@ -333,7 +336,7 @@ h2 {
     }
     #rpg {
         justify-content: center;
-        margin:0% 20%;
+        /* margin:0% 20%; */
         margin-bottom: 25px;
         min-width: 250px;
         max-width: 300px;
@@ -341,7 +344,7 @@ h2 {
     }
     #trivia {
         justify-content: center;
-        margin:0% 20%;
+        /* margin:0% 20%; */
         margin-bottom: 25px;
         min-width: 250px;
         max-width: 300px;
@@ -349,7 +352,7 @@ h2 {
     }
     #rutgers {
         justify-content: center;
-        margin:0% 20%;
+        /* margin:0% 20%; */
         margin-bottom: 25px;
         min-width: 250px;
         max-width: 300px;
@@ -357,7 +360,7 @@ h2 {
     }   
     #rock {
         justify-content: center;
-        margin:0% 20%;
+        /* margin:0% 20%; */
         margin-bottom: 25px;
         min-width: 250px;
         max-width: 300px;
@@ -365,7 +368,7 @@ h2 {
     } 
     #goal {
         justify-content: center;
-        margin:0% 20%;
+        /* margin:0% 20%; */
         margin-bottom: 25px;
         min-width: 250px;
         max-width: 300px;

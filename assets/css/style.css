@@ -29,6 +29,11 @@ h1 {
     margin-top: 0px;
 }
 
+h5{
+    text-align: center;
+    color: white;
+}
+
 header {
     background: url(../images/header.jpg);
     height: 100%;
@@ -115,7 +120,6 @@ footer {
     background: #3c3c3c;
     text-align: center;
     height: 75px;
-    border-top: 5px solid #2b869f;
 }
 
 .copy {
@@ -128,12 +132,19 @@ form {
     padding-left: 40px;
 }
 
+#resume{
+    color: #2b869f;
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+}
+
 #submit {
-    background: #4aaaa5;
+    background: #2b869f;
     color: #ffffff;
     border: 1px outset #cccccc;
     padding: 8px 20px;
     font-size: 15px;
+    text-decoration: none;
 }
 
 #submit:hover {
@@ -183,21 +194,13 @@ form {
     width: 294px;
     height: 244px;   
     text-decoration: none;
+    margin: 20px;
+    border: solid 1px white;
 }
 
-.pics:hover{
-    border: 3px outset #cccccc;
-    width: 294px;
-    height: 244px; 
+#hangman:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.696), rgba(0, 0, 0, 0.696)), url(../images/hangman.jpeg)center;
 }
-
-.pics:active {
-    border: 1px outset #666;
-    transform: translateY(5px);
-    width: 296px;
-    height: 246px;
-}
-
 #hangman {
     background: url(../images/hangman.jpeg);
     background-size: 120%;
@@ -207,13 +210,18 @@ form {
 #rpg {
     background: url(../images/RPG.jpg);
     background-size: 100%;
-
+}
+#rpg:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.696), rgba(0, 0, 0, 0.696)), url(../images/RPG.jpg)center;
 }
 
 #trivia {
-    background: url(../images/trivia.png);
+    background: url(../images/trivie.png);
     background-size: 150%;
-    background-position: center;
+    background-position:center;
+}
+#trivia:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.696), rgba(0, 0, 0, 0.696)), url(../images/trivie.png)center;
 }
 
 #rutgers {
@@ -221,12 +229,17 @@ form {
     background-size: 150%;
     background-position: center;
 }
+#rutgers:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.696), rgba(0, 0, 0, 0.696)), url(../images/giphy.png)center;
+}
 
 #rock {
-    background: url(../images/rock.jpg);
+    background: url(../images/&chil.png);
     background-size: 110%;
     background-position: -20px 0px;
-
+}
+#rock:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.696), rgba(0, 0, 0, 0.696)), url(../images/&chil.png)center;
 }
 
 #goal {
@@ -235,17 +248,43 @@ form {
     background-position: -13px 0px;
     text-decoration: none;
 }
+#goal:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.696), rgba(0, 0, 0, 0.696)), url(../images/goal.png)center;
+}
 
-h3 {
+h3, h4 {
+    margin-top: 10px;
     text-align: center;
-    color: #ffffff;
+    width:100%;
+    text-shadow: 1px 1px white;
+    background-color:black;
+    font-size:20px;
+    color: #2b869f;
     text-decoration: none;
+    padding:5px;
+    border-radius: 1rem;
+}
+
+h4 {
+    margin-top: 170px;
+    font-size: 15px;
+}
+h4:hover, h3:hover {
+    background-color:grey;
+    text-shadow: 1px 1px black;
+    text-decoration: none;
+}
+
+.card {
+    border-radius: 1rem;
 }
 
 .things, img {
     justify-content:  center;
     display: flex;
+
 }
+
 
 h2 {
     color: black;
@@ -254,7 +293,6 @@ h2 {
     padding:50px 0px 20px 0px;
     border-bottom: 5px solid #2b869f;
     margin-bottom: 20px;
-
 }  
 
 #porth2 {
@@ -262,11 +300,16 @@ h2 {
 }
 
 .container {
-    background: #ffffff;
     min-width: 100%;
     margin: 0px;
     padding: 0px;
     display:block;
+    justify-content: center;
+}
+
+#form{
+    padding:0px 40px 40px 40px;
+   
 }
 
 #aboutC{
@@ -321,10 +364,12 @@ h2 {
     }
       .pics {
         margin: 0px;
+        justify-content: center;
     }
     .things {
         margin: 0px;
         display: block;
+    
     }
     #hangman {
         justify-content: center;

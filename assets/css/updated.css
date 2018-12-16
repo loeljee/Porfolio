@@ -1,0 +1,205 @@
+  body {
+    font-family: 'Righteous';
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+ 
+  p {
+    font-size: 16px;
+    color: rgb(50, 50, 50);
+    text-decoration: none;
+  }
+
+  h1, h2 {
+    font-family: 'Permanent Marker';
+  }
+  h2 {
+      color: black;
+      padding: 0px;
+      text-align: center;
+      text-decoration: underline;
+      text-decoration-color: #1abc9c;
+      letter-spacing: 6px;
+  }
+  #ph2{
+      color: white;
+  }
+
+  h5 {
+    color: white;
+    padding:10px;
+  }
+ 
+  .navbar {
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 3px;
+    background-color:  rgb(50, 50, 50);
+  }
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-nav li {
+    float: none;
+    display: inline-block;
+  }
+  .navbar-nav>li>a {
+    color: white !important;
+  }
+  .navbar-nav li a:hover {
+    color: #1abc9c !important;
+  }
+  .navbar-nav li a:active {
+    color: #d72ecc !important;
+  }
+
+  .joellee {
+    display: block;
+    margin:2em auto 0px auto;
+    font-size:100px;
+    text-align: center;
+    text-decoration: none;
+    color: #2b869f;
+    text-shadow: 1px 1px white;
+  }
+
+  #joel{
+    float: left;
+    width: 40%;
+    height:auto;
+    margin: 20px;
+  }
+
+  #home {
+    background: url(../images/header.jpg);
+    height: 800px;
+  }
+  #about {
+    background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url(../images/about.jpg) center;
+    background-size: cover;
+  }
+
+  #portfolio {
+    background: linear-gradient(rgb(0, 0, 0,.7), rgb(0, 0, 0,.7)), url(../images/portfolio.png)center;
+    background-size: cover;
+}
+
+  #contact {
+    background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url(../images/contact.jpg)center fixed;
+    background-size: cover;
+    padding-bottom: 20px;
+  }
+
+  #footer {
+    border-top: 1px solid black;
+    margin-bottom: 0px;
+    font-size: 12px;
+    letter-spacing: 3px;
+    background-color:  rgb(50, 50, 50);
+  }
+
+
+
+
+
+
+
+
+  * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
